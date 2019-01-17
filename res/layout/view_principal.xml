@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/default_screen"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:src="@drawable/app_icon_menu" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2" >
+
+        <ImageView
+            android:id="@+id/btLeitura"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="clickLeitura"
+            android:src="@drawable/icone_leitura" />
+
+        <ImageView
+            android:id="@+id/btEstatistica"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="clickGrafico"
+            android:src="@drawable/icone_graficos" />
+
+        <ImageView
+            android:id="@+id/btConf"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="clickConf"
+            android:src="@drawable/icone_conf" />
+
+        <ImageView
+            android:id="@+id/btCreditos"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="clickCreditos"
+            android:src="@drawable/icone_desenvolvedor" />
+
+    </LinearLayout>
+
+</LinearLayout>

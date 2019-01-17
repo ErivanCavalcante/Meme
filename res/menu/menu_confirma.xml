@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item
+        android:id="@+id/menuConfirma"
+        android:title="Ok"
+        android:showAsAction="always"
+        android:icon="@drawable/icone_ok"/>
+	
+	<item
+        android:id="@+id/menuValor"
+        android:title="Consultar Valor Conta"
+        android:showAsAction="never"/>
+    
+	<item 
+        android:id="@+id/menuModoFabrica"
+        android:title="Limpa Lista"
+        android:showAsAction="never"/>
+    
+</menu>

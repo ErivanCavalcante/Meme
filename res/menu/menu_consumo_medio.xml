@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/menuCalcula" 
+        android:title="Calcular"
+        android:showAsAction="always"
+        android:icon="@drawable/icone_ok"/>
+    
+    <item 
+        android:id="@+id/menuPrincipal" 
+        android:title="Menu Principal"
+        android:showAsAction="never"/>
+   
+</menu>
